@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarota Raphael</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="terminal-container">
+        <div class="terminal-header">
+            <div class="header-buttons">
+                <div class="header-btn btn-close"></div>
+                <div class="header-btn btn-min"></div>
+                <div class="header-btn btn-max"></div>
+            </div>
+            <div class="terminal-title">sarota@portfolio: ~</div>
+            <div style="width: 60px;"></div>
+        </div>
+        
+        <div class="terminal">
+            <div class="terminal-body">
+                <div class="line">
+                    <span class="prompt">Welcome to my portfolio</span>
+                </div>
+                
+                <div class="line">
+                    <span class="prompt">Last login: <span id="date"></span> from 192.168.1.1</span>
+                </div>
+                
+                <div class="line">
+                    <span class="prompt"><span class="sarota">sarota</span>@<span class="host">portfolio</span>:<span class="path">~</span>$</span>
+                    <span class="typewriter">start</span>
+                </div>
+                
+                <div class="line">
+                    <span class="prompt">Click any command below:</span>
+                </div>
+                
+                <div class="line">
+                    <span class="prompt">→</span>
+                    <a href="#about" class="cmd">about</a> - Display information about me
+                </div>
+                
+                <div class="line">
+                    <span class="prompt">→</span>
+                    <a href="#skills" class="cmd">skills</a> - List my technical skills
+                </div>
+                
+                <div class="line">
+                    <span class="prompt">→</span>
+                    <a href="#education" class="cmd">education</a> - View my academic background
+                </div>
+                
+                <div class="line">
+                    <span class="prompt">→</span>
+                    <a href="#interests" class="cmd">interests</a> - Explore my tech passions
+                </div>
+                
+                <div class="line">
+                    <span class="prompt">→</span>
+                    <a href="#projects" class="cmd">projects</a> - Showcase my recent projects
+                </div>
+                
+                <div class="line">
+                    <span class="prompt">→</span>
+                    <a href="#contact" class="cmd">contact</a> - Get in touch with me
+                </div>
+                
+                <!-- About Section -->
+                <div id="about" class="content">
+                    <div class="content-title">
+                        <i class="fas fa-user"></i>
+                        About Me
+                    </div>
+                    <p>
+                        Hi! I'm Sarota Raphael, a final-year BSc. Telecommunication and Information Engineering student at JKUAT. 
+                    </p>
+                    <p>
+                        My passion lies in creating innovative solutions that bridge the gap between telecommunications 
+                        infrastructure and modern software development. I approach every project with professionalism and 
+                        creativity, ensuring optimal performance and user experience.
+                    </p>
+                    <p>
+                        Driven by curiosity and a love for problem-solving, I constantly explore new technologies to push 
+                        the boundaries of what's possible in our connected world.
+                    </p>
+                </div>
+                
+                <!-- Skills Section -->
+                <div id="skills" class="content">
+                    <div class="content-title">
+                        <i class="fas fa-code"></i>
+                        Technical Skills
+                    </div>
+                    <p>I specialize in the following technologies:</p>
+                    <div class="skills-grid">
+                        <div class="skill">HTML5</div>
+                        <div class="skill">CSS</div>
+                        <div class="skill">JavaScript</div>
+                        <div class="skill">Python</div>
+                        <div class="skill">Git</div>
+                        <div class="skill">SQL</div>
+                    </div>
+                </div>
+                
+                <!-- Education Section -->
+                <div id="education" class="content">
+                    <div class="content-title">
+                        <i class="fas fa-graduation-cap"></i>
+                        Educational Background
+                    </div>
+                    <p>
+                        <strong>Jomo Kenyatta University of Agriculture & Technology (JKUAT)</strong><br>
+                        BSc. Telecommunication and Information Engineering<br>
+                        2021 - 2025 (Awaiting graduation)
+                    </p>
+                    <p>
+                        <strong>Key coursework:</strong> Network Design, Wireless Communications, 
+                        Data Communication, Web Technologies, Information Security
+                    </p>
+                    <a href="#" class="cv-download">
+                        <i class="fas fa-download"></i> Download My CV
+                    </a>
+                </div>
+                
+                <!-- Interests Section -->
+                <div id="interests" class="content">
+                    <div class="content-title">
+                        <i class="fas fa-lightbulb"></i>
+                        Interests
+                    </div>
+                    <ul class="interests-list">
+                        <li>
+                            <strong>Network Security</strong><br>
+                            Exploring encryption protocols and vulnerability assessment techniques
+                        </li>
+                        <li>
+                            <strong>IoT Development</strong><br>
+                            Building smart systems that connect physical devices to the digital world
+                        </li>
+                        <li>
+                            <strong>Cloud Infrastructure</strong><br>
+                            Designing scalable solutions using cloud-native technologies
+                        </li>
+                       
+                    </ul>
+                </div>
+                
+                <!-- Projects Section -->
+                <div id="projects" class="content">
+                    <div class="content-title">
+                        <i class="fas fa-project-diagram"></i>
+                        Projects
+                    </div>
+                    
+                    <div class="project">
+                        <div class="project-title">
+                            <i class="fas fa-network-wired"></i>
+                            Intelligent Audience Tracking and Analytics system
+                        </div>
+                        <p>
+                            The Intelligent Audience Tracking and Analytics System monitored and analyzed real-time viewer engagement with digital advertisements using cameras and machine learning to count and track people based on eye detection.
+                        </p>
+                    </div>
+                    
+                    <div class="project">
+                        <div class="project-title">
+                          <i class="fas fa-shield-alt"></i>
+                          Portfolio Website
+                        </div>
+                        <p>
+                          The one you're browsing now.
+                        </p>
+                      </div>
+                      
+                    
+                    
+                </div>
+                
+                <!-- Contact Section -->
+                <div id="contact" class="content">
+                    <div class="content-title">
+                        <i class="fas fa-envelope"></i>
+                        Contact Me
+                    </div>
+                    
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label class="form-label">Name:</label>
+                            <input type="text" class="form-input" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="form-label">Email:</label>
+                            <input type="email" class="form-input" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="form-label">Message:</label>
+                            <textarea class="form-textarea" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                    
+                    <p>Or reach me directly through:</p>
+                    
+                    <a href="mailto:topherralph@gmail.com" class="contact-link">
+                        <i class="fas fa-envelope"></i>
+                        topherralph@gmail.com
+                    </a>
+                    
+                    <a href="https://github.com/Topher254" target="_blank" class="contact-link">
+                        <i class="fab fa-github"></i>
+                        github.com/Topher254
+                    </a>
+                    
+                    <a href="tel:+254796871876" class="contact-link">
+                        <i class="fas fa-phone"></i>
+                        +254 796 871876
+                    </a>
+                </div>
+            </div>
+            
+            <div class="input-line">
+                <div class="input-prompt">
+                    <span class="sarota">sarota</span>@<span class="host">portfolio</span>:<span class="path">~</span>$
+                </div>
+                <div class="cursor"></div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            Sarota Raphael © 2025 
+        </div>
+    </div>
+
+   
+</body>
+</html>
